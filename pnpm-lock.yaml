@@ -162,8 +162,8 @@ importers:
         specifier: ^3.0.0
         version: 3.0.0
       ember-template-lint:
-        specifier: ^5.7.2
-        version: 5.7.2
+        specifier: ^5.10.3
+        version: 5.10.3
       ember-try:
         specifier: ^2.0.0
         version: 2.0.0
@@ -358,8 +358,8 @@ importers:
         specifier: ^3.0.0
         version: 3.0.0
       ember-template-lint:
-        specifier: ^5.7.2
-        version: 5.7.2
+        specifier: ^5.10.3
+        version: 5.10.3
       ember-try:
         specifier: ^2.0.0
         version: 2.0.0
@@ -574,8 +574,8 @@ importers:
         specifier: ~4.12.0
         version: 4.12.0(@babel/core@7.23.3)(@glimmer/component@1.1.2)(webpack@5.78.0)
       ember-template-lint:
-        specifier: ^5.7.2
-        version: 5.7.2
+        specifier: ^5.10.3
+        version: 5.10.3
       ember-welcome-page:
         specifier: ^7.0.1
         version: 7.0.1(@babel/core@7.23.3)
@@ -6046,8 +6046,8 @@ packages:
       - supports-color
     dev: true
 
-  /ember-template-lint@5.7.2:
-    resolution: {integrity: sha512-HnIbS2WGPMG7wkvUERwtOhWuneWlTlo3c7QJXS5jyVCHYaBpJ16khJMTrylikNfED2BZoLgJqvmjGL1A/3s9hQ==}
+  /ember-template-lint@5.10.3:
+    resolution: {integrity: sha512-IuvnJnCN36vnFoDUQ4TPiS9SsoMtvS3hL+zsdNpd+f3ZqKrlXSfcdyRqjKLrucbYE34Lk5BKpbYv68YZ86N69w==}
     engines: {node: ^14.18.0 || ^16.0.0 || >= 18.0.0}
     hasBin: true
     dependencies:
