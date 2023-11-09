@@ -4,6 +4,9 @@ importers:
 
   .:
     devDependencies:
+      '@babel/plugin-proposal-decorators':
+        specifier: ^7.21.0
+        version: 7.21.0(@babel/core@7.23.3)
       prettier:
         specifier: ^2.2.1
         version: 2.8.7

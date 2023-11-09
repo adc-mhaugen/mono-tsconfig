@@ -10,6 +10,7 @@
     "author": "",
     "license": "UNLICENSED",
     "devDependencies": {
+        "@babel/plugin-proposal-decorators": "^7.21.0",
         "prettier": "^2.2.1",
         "stylelint": "^14.6.1",
         "stylelint-order": "^5.0.0"
