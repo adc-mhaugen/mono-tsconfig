@@ -1,0 +1,17 @@
+{
+    "name": "mono-tsconfig",
+    "version": "1.0.0",
+    "description": "Simple ember monorepo for testing TS configuration.",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "UNLICENSED",
+    "devDependencies": {
+        "prettier": "^2.2.1",
+        "stylelint": "^14.6.1",
+        "stylelint-order": "^5.0.0"
+    }
+}
