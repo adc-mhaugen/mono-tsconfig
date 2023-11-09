@@ -28,10 +28,14 @@
             "editor.defaultFormatter": "esbenp.prettier-vscode",
             "editor.formatOnSave": true
         },
-        "[scss]": {
+        "[css]": {
             "editor.codeActionsOnSave": {
                 "source.fixAll.stylelint": true
             }
+        },
+        "[handlebars]": {
+            "editor.defaultFormatter": "esbenp.prettier-vscode",
+            "editor.formatOnSave": true
         },
 
         "css.validate": false,

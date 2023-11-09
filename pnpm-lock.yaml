@@ -59,9 +59,6 @@ importers:
       '@types/ember':
         specifier: ^4.0.9
         version: 4.0.9(@babel/core@7.23.3)
-      '@types/ember-qunit':
-        specifier: ^6.1.1
-        version: 6.1.1(@ember/test-helpers@2.9.3)(ember-source@4.12.0)(qunit@2.19.4)(webpack@5.78.0)
       '@types/ember-resolver':
         specifier: ^9.0.0
         version: 9.0.0(@ember/string@3.0.1)(ember-source@4.12.0)
@@ -113,9 +110,6 @@ importers:
       '@types/ember__test':
         specifier: ^4.0.5
         version: 4.0.5(@babel/core@7.23.3)
-      '@types/ember__test-helpers':
-        specifier: ^2.9.1
-        version: 2.9.1(@babel/core@7.23.3)(ember-source@4.12.0)
       '@types/ember__utils':
         specifier: ^4.0.6
         version: 4.0.6(@babel/core@7.23.3)
@@ -261,9 +255,6 @@ importers:
       '@types/ember':
         specifier: ^4.0.9
         version: 4.0.9(@babel/core@7.23.3)
-      '@types/ember-qunit':
-        specifier: ^6.1.1
-        version: 6.1.1(@ember/test-helpers@2.9.3)(ember-source@4.12.0)(qunit@2.19.4)(webpack@5.78.0)
       '@types/ember-resolver':
         specifier: ^9.0.0
         version: 9.0.0(@ember/string@3.0.1)(ember-source@4.12.0)
@@ -315,9 +306,6 @@ importers:
       '@types/ember__test':
         specifier: ^4.0.5
         version: 4.0.5(@babel/core@7.23.3)
-      '@types/ember__test-helpers':
-        specifier: ^2.9.1
-        version: 2.9.1(@babel/core@7.23.3)(ember-source@4.12.0)
       '@types/ember__utils':
         specifier: ^4.0.6
         version: 4.0.6(@babel/core@7.23.3)
@@ -465,9 +453,6 @@ importers:
       '@types/ember-data__store':
         specifier: ^4.0.6
         version: 4.0.6(@babel/core@7.23.3)
-      '@types/ember-qunit':
-        specifier: ^6.1.1
-        version: 6.1.1(@ember/test-helpers@2.9.3)(ember-source@4.12.0)(qunit@2.19.4)(webpack@5.78.0)
       '@types/ember-resolver':
         specifier: ^9.0.0
         version: 9.0.0(@ember/string@3.0.1)(ember-source@4.12.0)
@@ -519,9 +504,6 @@ importers:
       '@types/ember__test':
         specifier: ^4.0.5
         version: 4.0.5(@babel/core@7.23.3)
-      '@types/ember__test-helpers':
-        specifier: ^2.9.1
-        version: 2.9.1(@babel/core@7.23.3)(ember-source@4.12.0)
       '@types/ember__utils':
         specifier: ^4.0.6
         version: 4.0.6(@babel/core@7.23.3)
@@ -2607,20 +2589,6 @@ packages:
       - supports-color
     dev: true
 
-  /@types/ember-qunit@6.1.1(@ember/test-helpers@2.9.3)(ember-source@4.12.0)(qunit@2.19.4)(webpack@5.78.0):
-    resolution: {integrity: sha512-1g5A3vPKhvB/CuN/EP9rBLXYaJOjzKyLYWeBtNDEQNkTuG1dAo/Hg0CCixgbBgLlzaDP8mR/n1xpg8HqQ8SUKg==}
-    deprecated: This is a stub types definition. ember-qunit provides its own type definitions, so you do not need this installed.
-    dependencies:
-      ember-qunit: 6.2.0(@ember/test-helpers@2.9.3)(ember-source@4.12.0)(qunit@2.19.4)(webpack@5.78.0)
-    transitivePeerDependencies:
-      - '@ember/test-helpers'
-      - '@glint/template'
-      - ember-source
-      - qunit
-      - supports-color
-      - webpack
-    dev: true
-
   /@types/ember-resolver@9.0.0(@ember/string@3.0.1)(ember-source@4.12.0):
     resolution: {integrity: sha512-lEuC2QD8K6rRAbELMejrALFBgelRPt6OQtapny4Oke07ZtK/Lbf9zn5KIDl7PNkirxMD0AStsQTdUqFu6eVbVw==}
     deprecated: This is a stub types definition. ember-resolver provides its own type definitions, so you do not need this installed.
@@ -2782,19 +2750,6 @@ packages:
 
   /@types/ember__template@4.0.5:
     resolution: {integrity: sha512-cuyurEDnVX5fEX8P5UAgPYMPJG8WzN5ubdQy+spMNNiEm20vg4teeyzZa1vZLGgai065fYpVy3JTsEjbzskQAg==}
-    dev: true
-
-  /@types/ember__test-helpers@2.9.1(@babel/core@7.23.3)(ember-source@4.12.0):
-    resolution: {integrity: sha512-KZ6jYr0ZiQHlklLcfyuy1j+FkvygEayf5mZ9FcaSOahw9ghK3K5TYSRDCuIBELRw//OB/WP9J7v9NduFRNfRgg==}
-    deprecated: This is a stub types definition. @ember/test-helpers provides its own type definitions, so you do not need this installed.
-    dependencies:
-      '@ember/test-helpers': 2.9.3(@babel/core@7.23.3)(ember-source@4.12.0)
-    transitivePeerDependencies:
-      - '@babel/core'
-      - '@glint/environment-ember-loose'
-      - '@glint/template'
-      - ember-source
-      - supports-color
     dev: true
 
   /@types/ember__test@4.0.5(@babel/core@7.23.3):
