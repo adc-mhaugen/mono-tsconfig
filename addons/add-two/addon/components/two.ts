@@ -1,5 +1,5 @@
 import Component from '@glimmer/component';
-import { getRandom } from '@add/one/utils/random';
+// import { getRandom } from '@add/one/utils/random';
 
 import type { OneComponentSignature } from '@add/one/components/one';
 
@@ -11,7 +11,7 @@ interface TwoComponentSignature {
 }
 
 export default class TwoComponent extends Component<TwoComponentSignature> {
-    get random(): string {
-        return String(getRandom());
-    }
+    // get random(): string {
+    //     return String(getRandom());
+    // }
 }

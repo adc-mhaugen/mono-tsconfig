@@ -414,6 +414,12 @@ importers:
 
   apps/app-one:
     devDependencies:
+      '@add/one':
+        specifier: workspace:*
+        version: link:../../addons/add-one
+      '@add/two':
+        specifier: workspace:*
+        version: link:../../addons/add-two
       '@babel/eslint-parser':
         specifier: ^7.21.3
         version: 7.21.3(@babel/core@7.23.3)(eslint@8.37.0)

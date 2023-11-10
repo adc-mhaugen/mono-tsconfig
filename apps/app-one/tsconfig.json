@@ -8,6 +8,12 @@
         "paths": {
             "app-one/tests/*": ["tests/*"],
             "app-one/*": ["app/*"],
+
+            "@add/one": ["../../addons/add-one/addon"],
+            "@add/one/*": ["../../addons/add-one/addon/*"],
+            "@add/two": ["../../addons/add-two/addon"],
+            "@add/two/*": ["../../addons/add-two/addon/*"],
+
             "*": ["types/*"]
         }
     },
