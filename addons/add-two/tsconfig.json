@@ -12,6 +12,10 @@
             "@add/two/*": ["addon/*"],
             "@add/two/test-support": ["addon-test-support"],
             "@add/two/test-support/*": ["addon-test-support/*"],
+
+            "@add/one": ["../add-one/addon"],
+            "@add/one/*": ["../add-one/addon/*"],
+
             "*": ["types/*"]
         }
     },
