@@ -1,0 +1,17 @@
+{
+    "extends": "../tsconfig.compiler-options.json",
+    "compilerOptions": {
+        "baseUrl": ".",
+        "declarationDir": "./dummy/declarations",
+        "paths": {
+            "dummy/tests/*": ["./*"],
+            "dummy/*": ["./dummy/app/*"],
+            "@add/one": ["../declarations"],
+            "@add/one/*": ["../declarations/*"],
+
+            "*": ["../types/*"]
+        }
+    },
+    "include": [".", "../types"],
+    "references": [{ "path": "../addon/tsconfig.json" }]
+}

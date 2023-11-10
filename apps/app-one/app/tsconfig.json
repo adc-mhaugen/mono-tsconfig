@@ -1,0 +1,18 @@
+{
+    "extends": "../tsconfig.compiler-options.json",
+    "compilerOptions": {
+        "baseUrl": ".",
+        "composite": true,
+        "declarationDir": "../declarations",
+        "paths": {
+            "app-one/*": ["*"],
+
+            "*": ["../types/*"]
+        }
+    },
+    "include": [".", "../types"],
+    "references": [
+        { "path": "../../../addons/add-one/tsconfig.json" },
+        { "path": "../../../addons/add-two/tsconfig.json" }
+    ]
+}

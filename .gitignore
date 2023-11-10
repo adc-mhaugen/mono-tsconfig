@@ -3,6 +3,8 @@
 # compiled output
 /dist/
 /tmp/
+declarations/
+tsconfig.tsbuildinfo
 
 # dependencies
 /bower_components/

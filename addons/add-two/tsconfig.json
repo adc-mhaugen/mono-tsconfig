@@ -1,30 +1,10 @@
 {
-    "extends": "@tsconfig/ember/tsconfig.json",
+    "files": [],
     "compilerOptions": {
-        // The combination of `baseUrl` with `paths` allows Ember's classic package
-        // layout, which is not resolvable with the Node resolution algorithm, to
-        // work with TypeScript.
-        "baseUrl": ".",
-        "paths": {
-            "dummy/tests/*": ["tests/*"],
-            "dummy/*": ["tests/dummy/app/*", "app/*"],
-            "@add/two": ["addon"],
-            "@add/two/*": ["addon/*"],
-            "@add/two/test-support": ["addon-test-support"],
-            "@add/two/test-support/*": ["addon-test-support/*"],
-
-            "@add/one": ["../add-one/addon"],
-            "@add/one/*": ["../add-one/addon/*"],
-
-            "*": ["types/*"]
-        }
+        "composite": true
     },
-    "include": [
-        "app/**/*",
-        "addon/**/*",
-        "tests/**/*",
-        "types/**/*",
-        "test-support/**/*",
-        "addon-test-support/**/*"
+    "references": [
+        { "path": "addon/tsconfig.json" },
+        { "path": "tests/tsconfig.json" }
     ]
 }

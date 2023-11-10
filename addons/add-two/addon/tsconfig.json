@@ -1,0 +1,19 @@
+{
+    "extends": "../tsconfig.compiler-options.json",
+    "compilerOptions": {
+        "baseUrl": ".",
+        "declarationDir": "../declarations",
+        "paths": {
+            "@add/two": ["."],
+            "@add/two/*": ["./*"],
+
+            "*": ["../types/*"]
+        }
+    },
+    "include": [".", "../types"],
+    "references": [
+        {
+            "path": "../../../addons/add-one/tsconfig.json"
+        }
+    ]
+}
