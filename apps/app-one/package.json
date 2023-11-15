@@ -19,6 +19,8 @@
         "lint:js": "eslint . --cache",
         "lint:js:fix": "eslint . --fix",
         "lint:ts": "tsc --build",
+        "types:build": "tsc --build",
+        "types:clean": "tsc --build --clean",
         "start": "ember serve",
         "test": "concurrently \"pnpm:lint\" \"pnpm:test:*\" --names \"lint,test:\"",
         "test:ember": "ember test"

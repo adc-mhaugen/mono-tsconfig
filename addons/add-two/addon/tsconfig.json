@@ -14,9 +14,6 @@
     "references": [
         {
             "path": "../../../addons/add-one/tsconfig.json",
-        },
-        {
-            "path": "../../../libraries/common/tsconfig.json"
         }
     ]
 }
