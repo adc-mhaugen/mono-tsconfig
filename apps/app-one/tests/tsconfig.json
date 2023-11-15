@@ -10,6 +10,6 @@
     },
     "include": [".", "../types"],
     "references": [
-        { "path": "../app/tsconfig.json" }
+        { "path": "../app/" }
     ]
 }

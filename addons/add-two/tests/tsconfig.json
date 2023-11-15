@@ -13,5 +13,5 @@
         }
     },
     "include": [".", "../types"],
-    "references": [{ "path": "../addon/tsconfig.json" }]
+    "references": [{ "path": "../addon/" }]
 }

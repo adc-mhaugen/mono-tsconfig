@@ -12,8 +12,8 @@
     },
     "include": [".", "../types"],
     "references": [
-        { "path": "../../../addons/add-one/tsconfig.json" },
-        { "path": "../../../addons/add-two/tsconfig.json" }
+        { "path": "../../../addons/add-one/" },
+        { "path": "../../../addons/add-two/" }
 
     ]
 }
