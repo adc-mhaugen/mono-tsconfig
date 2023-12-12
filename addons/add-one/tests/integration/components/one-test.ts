@@ -2,6 +2,7 @@ import { module, test } from 'qunit';
 import { setupRenderingTest } from 'dummy/tests/helpers';
 import { render } from '@ember/test-helpers';
 import { hbs } from 'ember-cli-htmlbars';
+import { getRandom } from '@add/one/utils';
 
 module('Integration | Component | one', function (hooks) {
     setupRenderingTest(hooks);
@@ -16,5 +17,7 @@ module('Integration | Component | one', function (hooks) {
         assert.dom('.add-one').hasAttribute('data-random');
         assert.dom('p').hasText('Component one "test"');
         assert.dom('span').hasText('YIELD');
+
+        assert.true(getRandom());
     });
 });
