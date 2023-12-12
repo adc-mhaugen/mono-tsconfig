@@ -8,6 +8,7 @@
 
         "target": "ESNext",
         "moduleResolution": "node",
+        "module": "ESNext",
 
         // The JS ecosystem has 4+ module formats and many packages do not use ES modules...
         "allowSyntheticDefaultImports": true,
@@ -32,12 +33,11 @@
         "noEmit": false,
 
         "allowJs": false,
+        "skipLibCheck": true,
 
         // Babel handles source maps
         "inlineSourceMap": false,
         "inlineSources": false,
-
-        "module": "ESNext",
 
         // Stage 3 one day
         "experimentalDecorators": true,

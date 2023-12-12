@@ -30,7 +30,7 @@
         },
         "[css]": {
             "editor.codeActionsOnSave": {
-                "source.fixAll.stylelint": true
+                "source.fixAll.stylelint": "explicit"
             }
         },
         "[handlebars]": {
@@ -42,7 +42,8 @@
         "scss.validate": false,
         "stylelint.packageManager": "pnpm",
         "stylelint.validate": ["scss", "css"],
-        "js/ts.implicitProjectConfig.experimentalDecorators": true
+        "js/ts.implicitProjectConfig.experimentalDecorators": true,
+        "typescript.preferences.importModuleSpecifier": "non-relative",
     },
 
     "extensions": {

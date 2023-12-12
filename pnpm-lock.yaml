@@ -19,6 +19,9 @@ importers:
       stylelint-order:
         specifier: ^5.0.0
         version: 5.0.0(stylelint@14.6.1)
+      typescript:
+        specifier: ^5.2.2
+        version: 5.2.2
 
   addons/add-one:
     dependencies:

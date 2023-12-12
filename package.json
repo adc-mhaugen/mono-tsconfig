@@ -1,10 +1,12 @@
 {
     "name": "mono-tsconfig",
     "version": "1.0.0",
-    "description": "Simple ember monorepo for testing TS configuration.",
+    "description": "Simple pnpm/ember monorepo for testing TS project references.",
     "main": "index.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "types:build": "tsc --build",
+        "types:clean": "tsc --build --clean"
     },
     "keywords": [],
     "author": "",
@@ -14,6 +16,7 @@
         "@tsconfig/ember": "^3.0.2",
         "prettier": "^2.2.1",
         "stylelint": "^14.6.1",
-        "stylelint-order": "^5.0.0"
+        "stylelint-order": "^5.0.0",
+        "typescript": "^5.2.2"
     }
 }

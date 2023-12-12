@@ -1,6 +1,8 @@
 {
-    "$schema": "http://json.schemastore.org/tsconfig",
     "files": [],
+    "compilerOptions": {
+        "composite": true
+    },
     "references": [
         { "path": "./add-one" },
         { "path": "./add-two" }

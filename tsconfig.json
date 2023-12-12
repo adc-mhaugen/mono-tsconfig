@@ -1,0 +1,15 @@
+{
+    "extends": "./config/tsconfig.compiler-options.json",
+    "files": [],
+    "references": [
+        {
+            "path": "addons/add-one"
+        },
+        {
+            "path": "addons/add-two"
+        },
+        {
+            "path": "apps/app-one"
+        }
+    ]
+}
